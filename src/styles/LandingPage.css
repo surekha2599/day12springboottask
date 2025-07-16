@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  color: #222;
+  height: 100vh;
+}
+
+/* Layout */
+.landing-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+
+}
+
+
+.landing-header {
+  background-color: #000003;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.header-left .logo {
+  font-size: 1.4rem;
+}
+
+
+
+.landing-main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+  background-color: #fff;
+}
+
+.landing-content {
+  text-align: center;
+  max-width: 600px;
+  width: 100%;
+}
+
+.landing-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.landing-content p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.landing-buttons button {
+  background-color: #111;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  margin: 0 10px;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.landing-buttons button:hover {
+  background-color: #333;
+}
+
+.landing-footer {
+  background-color: #111;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  font-size: 0.9rem;
+}
+
+.highlight {
+  color: #999;
+}
+
+.header-buttons button {
+  background-color: grey;
+  color: black;
+  border: none;
+  padding: 10px 16px;
+  margin-left: 15px;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.header-buttons button:hover {
+  background-color: black;
+}
+
+.header-buttons {
+  display: flex;
+  align-items: center;
+}
